@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.rodo {
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+html, body {
+    font-family: "Nanum Myeongjo", serif;
+    background: lightgray;
+}
+
+h1, h2, h3 {
+    margin-bottom: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header {
+    background: rgb(82, 81, 81);
+    overflow: auto;
+    font-weight: 1.7em;
+}
+
+.header nav h1 {
+    float: left;
+    padding: 20px;
+    color: white;
+}
+
+.header nav ul {
+    float: right;
+    list-style: none;
+}
+
+.header nav ul li {
+    float: left;
+}
+
+.header nav ul li a {
+    padding: 20px;
+    display: block;
+}
+
+.header nav ul li a:hover {
+    background: #333;
+}
+
+.active {
+    background: #333;
+}
+
+.rod4 {
+    background: url(/images/20667.jpg) center center / cover;
+    height: 600px;
+    text-align: center;
+}
+
+.sec2 {
+    padding: 100px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.rodo1 {
+    background-color: #ffffff;
+    text-align: center;
+    
+    
+}
+
+
+.pied-page {
+    background: rgb(82, 81, 81);
+    color: bisque;
+    text-align: center;
+    padding: 40px;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 1200px) {
+    .sec2 {
+        padding: 50px 0;
+    }
+    
+    .rodo1 {
+        flex: 1 1 45%;
+        max-width: 45%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        font-size: 1.2em;
+    }
+    
+    .header nav h1, .header nav ul {
+        float: none;
+        text-align: center;
+    }
+    
+    .header nav ul {
+        display: block;
+    }
+    
+    .header nav ul li {
+        display: inline-block;
+    }
+    
+    .sec2 {
+        padding: 50px 0;
+    }
+    
+    .rodo1 {
+        flex: 1 1 100%;
+        max-width: 100%;
+        margin: 10px 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .header {
+        font-size: 1em;
+    }
+    
+    .rod4 {
+        height: 400px;
+    }
+    
+    .sec2 {
+        padding: 20px 0;
+    }
+}

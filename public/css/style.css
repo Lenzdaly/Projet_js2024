@@ -1,0 +1,762 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+html body{
+    font-family:"Nanum Myeongjo" , sans-serif;
+    background-color:lightgray;
+    /* margin:0px 20px 30px 20px ; */
+}
+
+h1 h2 h3{
+    margin-bottom: 0px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.header{
+    background: gray;
+    overflow: auto;
+    font-weight: 1.7em;
+   margin-bottom: 0px;
+}
+.header nav h1{
+    float: left;
+    /* padding: 20px; */
+    margin-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    text-align: justify; 
+}
+.header nav h1 a{
+    font-family: "indie flower"
+ 
+}
+.first-vew-cont h1{
+    text-indent: 1em;
+    padding-top: 100px;
+      text-align: justify;
+      font-size: 25px;
+    }
+.header nav ul li a:hover{
+    padding: 20px;
+    background: #333;
+}
+.header nav i{
+    color: rgb(238, 165, 9);
+    font-size: x-large;
+
+}
+.header nav ul{
+    float: right;
+    list-style: none;
+}
+
+.imenu{
+    display: none;
+}
+
+.header nav ul li{
+    float: left;
+ }
+ .header nav ul li a{
+    padding: 20px;
+    display: block;  
+}
+.active{
+    padding: 10px;
+    background: rgb(27, 24, 24);
+}
+.first-vew{
+    background: url(../Images/aceuil.jpg) center center /cover;
+    height: 680px;
+    width: 100%;
+    object-fit:cover;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.first-vew-cont{
+    margin: auto;
+    max-width: 100%;
+    width: 400px;
+    padding-top:140px ;   
+     color:  rgb(99, 94, 84);
+    
+    margin: auto;
+  
+    
+}
+span{
+    color:  rgb(190, 133, 8);
+}
+/* Aquisition */
+.containerAquisition{
+    display:  flex;
+    width: 100%;
+    height: auto;
+   align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container{
+    width: 300px;
+    height: auto;
+    overflow: hidden;
+    margin-right: 20px;
+    background-color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+.container img{
+    width: 100%;
+    height: 250px;
+    margin-bottom: 20px;
+}
+.aquisition h3{
+    margin: 10px 175px;
+}
+.aqtrait{
+    width: 50px;
+    height: 1px;
+    background-color: rgb(126, 110, 110);
+    margin: 0 auto;
+}
+
+.auto-bio{
+    height: 350px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color:rgb(43, 40, 40);
+}
+
+.bio-image{
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bio-text{
+    margin: auto;
+    width: 100%;
+    padding: 0 20px;
+    color: #fff;
+}
+
+.temoignage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    flex-direction: column;
+    padding: 0px 180px;
+    width: 100%;
+
+}
+
+.temoignage-h3{
+margin: 20px 180px;
+
+}
+
+.tm-1,.tm-2,.tm-3{
+    display: flex;
+    gap: 30px;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    padding: 0 50px;
+    height: 130px;
+    background-color: white;
+    margin-bottom:30px ;
+}
+.temoignage i{
+    padding: 0 10px;
+}
+.tm-image {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 200px;
+    justify-content: center;
+ 
+}
+
+.tm-image img{
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+  
+
+}
+
+footer {
+    text-align: center;
+    background: rgb(43, 42, 42);
+    color: #fff;
+    padding:  20px 0px 20px 0px ;
+   
+
+}
+/* contact */
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #35424a;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+ label {
+    color: white;
+}
+
+#contact-info .info-box {
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#contact-info p {
+    margin: 10px 0;
+    font-size: 1.1em;
+    display: flex;
+    align-items: center;
+}
+
+#contact-info i {
+    margin-right: 10px;
+    color: #35424a;
+}
+
+#contact-form .form-group {
+    margin-bottom: 20px;
+}
+
+#contact-form .input-icon#contact-form .input-icon {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+#contact-form .input-icon i {
+    position: absolute;
+    color: #4240406b;
+    font-size: 1em;
+
+}
+
+
+#contact-form .input-icon textarea {
+    padding-left: 40px;
+    width: calc(100% - 50px);
+    width: 760px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+
+#contact-form .input-icon textarea:focus {
+    border-color: #35424a;
+}
+
+#contact-form .textarea-icon {
+    align-items: flex-start;
+    position: relative;
+}
+
+#contact-form .textarea-icon i {
+    top: 10px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+form button {
+    width: 100%;
+    padding: 15px;
+    background-color: #043452;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    /* padding-left: 30px; */
+
+}
+
+form button:hover {
+    background-color: rgb(63, 45, 5);
+}
+
+footer p{
+    margin: 20px;
+
+}
+/* squad */
+.first-vew-squad{
+    background: url(/images/ourteam.jpg) center center /cover;
+    height: 780px;
+    text-align: center;
+   
+}
+.first-vew-squad h1{
+padding-top: 100px;
+font-size: 25px;
+font-weight: bold;
+text-align: justify;
+}
+
+.squad-detail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+     width: 100%;
+   height: auto;
+    flex-direction: column;
+
+    /* padding: 0px 0px 20px 20px ; */
+}
+
+
+.squad-content{
+    margin: 20px  0px 20px 30px;
+    text-align: justify;
+    padding-right: 50px;
+    width: 100%;
+ 
+}
+.squad{
+    width: 100%;
+    height: 100%;
+}
+
+.squad-detail h3{
+    
+    text-align: center;
+    }
+   
+    
+.squad-detail ul, .squad-detail ol  {
+    padding-left: 20px;
+   text-align: justify;
+
+    }
+
+.btn-join{
+    text-align: center;
+   
+  
+}
+.btn-join i{
+   
+    color:  rgb(190, 133, 8);
+    background-color: black;
+    width: 30px;
+    
+}
+
+.btn-join button:hover{
+    background-color: white;
+    color: rgb(124, 89, 13);
+    font-weight: bold;
+   }
+.btn-join button{
+    margin: 0px 50px 10px 20px ;
+    width: 200px;
+   
+    background-color:rgb(94, 66, 5);
+    color:rgba(150, 146, 146, 0.582);
+    padding: 2px;
+    border-radius: 5px;
+}
+
+
+/* Nos offres*/
+
+.offre1,.offre2{
+    display:  flex;
+    width: 100%;
+    height: auto;
+   align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.offre-container{
+    width: 300px;
+    height: auto;
+    overflow: hidden;
+    margin-right: 20px;
+    background-color: white;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 10px;
+
+}
+.offre-container img{
+    width: 100%;
+    height: 250px;
+    margin-bottom: 20px;
+}
+
+.offre-container p {
+    margin-left: 0px;
+    font-weight: bold;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.offre-container button{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(170, 113, 7);
+    border-radius: 5px;
+}
+
+.offre-container .btn-offre:hover{
+    background-color: rgb(56, 56, 114);
+}
+
+#offre-h1{
+    text-align: center;
+    margin: 10px;
+}
+
+.commentaires {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.commentaires h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#commentForm {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#commentContent {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+}
+
+#commentList {
+    margin-top: 10px;
+}
+
+#commentList .comment {
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width:768px ){
+   nav{
+    flex-direction: column;
+   }
+    .auto-bio{
+        height: auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-color: black;
+        flex-direction: column;
+    }
+    
+
+    .bio-image{
+        height: 380px;
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .bio-text{
+        margin: auto;
+        width: 100%;
+        padding: 10 20px;
+        color: #fff;
+        font-weight: bold;
+        font-size: 1em;
+        font-weight: bold;
+    }
+
+
+    .container , .offre-container{
+
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        margin-right: 20px;
+        background-color: white;
+        text-align: center;
+        margin-top: 10px;
+    
+    }
+     
+     .container p , .offre-container p{
+        color: rgb(1, 17, 17);
+        font-weight: bold;
+        font-size: 1em;
+        font-weight: bold;
+      
+    }
+    
+    .container img , .offre-container img{
+        width: 100%;
+        height: 300px;
+        margin-bottom: 20px;
+    }
+
+    .aquisition h3 {
+        margin-left: 0px;
+        font-weight: bold;
+        width: 100%;
+        font-size: 20px;
+        text-align: center;
+        font-weight: bold;
+    }
+    .aqtrait{
+        width: 100px;
+        height: 1px;
+        background-color: rgb(126, 110, 110);
+        margin: 0 auto;
+    }
+
+
+    
+.temoignage-h3{
+    text-align: center;
+    margin-left: 30px;
+    width: 100%;
+     
+    }
+
+    .tm-1,.tm-2,.tm-3{
+        display: flex;
+        gap: 20px;
+        height: 130px;
+        width: 555px;
+        background-color: white;
+       
+    }
+
+    .tm-image h4 {
+        font-size: 10px;
+     
+    } 
+
+
+    .containerAquisition ,.offre1,.offre2{
+        display:  flex;
+        width: 100%;
+        height: auto;
+       align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    #contact-form .input-icon textarea{
+        width: 100%;
+    }
+
+    .menu {
+        display: none;
+    }
+    
+    .imenu {
+        display: block;
+        float: right;
+        margin: 10px 10px;
+      font-size:x-large;
+     
+    }
+  
+}
+
+@media screen and (max-width:480px){
+   
+   
+.squad-content{
+    margin: 200px  0px 20px 30px;
+    text-align: justify;
+    padding-right: 50px;
+    width: 100%;
+ 
+}
+
+.first-vew-squad h1{
+    margin-top: 200px;
+}
+    
+        main h1{
+            font-size: 13px;
+            
+        }
+        main {
+            padding: 5px;
+        }
+    
+        #contact-info .info-box {
+            padding: 15px;
+        }
+    
+        #contact-info p {
+            font-size: 0.9em;
+        }
+    
+        form button {
+            padding: 8px;
+            font-size: 0.8em;
+        }
+
+        .form-group i{
+            size: 0.5em;
+        }
+
+
+
+.header nav ul li {
+   display: block;
+}
+
+.header{
+    position: relative;
+    width: 100%;
+
+    height: 100px;
+
+
+}
+.first-vew-squad{
+    background: url(../images/group_img.jpg) center center /cover;
+    height: 500px;
+    text-align: center;
+    width: auto;
+    margin-bottom: 0;
+   
+}
+.first-vew{
+    background: url(../Images/aceuil.jpg) center center /cover;
+    height: auto;
+    width: 100%;
+    object-fit:cover;
+text-align: center;
+/* justify-content: center; */
+ 
+}
+.bio-text p{
+    display: none;
+    
+}
+
+.first-vew-cont h1{
+    text-align: center;
+    padding: 0;
+    margin-top: auto;
+    width: 100%;
+    font-size: 16px;
+   
+    }
+    .temoignage-h3{
+       margin-left: 0;
+    }
+
+    .tm-1,.tm-2,.tm-3{
+        display: flex;
+        gap: 20px;
+        height: 130px;
+        width: 420px;
+       text-align: justify;
+       transform: scale(1.3);
+    }
+
+    html body{
+        font-family:"Nanum Myeongjo" , sans-serif;
+        background-color:white;
+        margin:0px 20px 30px 20px ;
+        color: rgb(43, 40, 40);
+    }
+
+    .menu {
+        display: none;
+    }
+    
+    .imenu {
+       flex-direction: column;
+     
+    }
+
+    
+.header nav ul li{
+    float: left;
+ }
+ .header nav ul li a{
+    padding: 10px;
+    display:inline-block;  
+}
+  
+    }
+     
+    @media screen and (min-width:1200px){
+       
+      
+
+        .first-vew{
+            background: url(../Images/aceuil.jpg) center center /cover;
+            height: 680px;
+            
+            width: 100%;
+            object-fit:cover;
+            align-items: center;
+        
+        } 
+       
+    }
+   

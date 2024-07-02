@@ -1,0 +1,243 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: lightgray;
+    font-family: "Nanum Myeongjo", serif; 
+    background: url(/images/crop-people-holding-hands-together.jpg) center center / cover;
+    height: 800px;
+    text-align: center;
+    
+}
+
+a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.header
+{
+    background: rgb(82, 81, 81);
+    overflow: auto;
+    font-weight: 1.7em;
+}
+
+.header nav h1
+{
+    float: left;
+    padding: 20px;
+    margin-bottom: 0px;
+    color: white;
+}
+
+.header nav ul 
+{
+    float: right;
+    list-style: none;
+    /*display: flex;
+    line-height: 20px;*/
+}
+
+.header nav ul li
+{
+    float: left;
+}
+
+.header nav ul li a
+{
+    padding: 20px;
+    display: block;
+}
+
+.header nav ul li a:hover
+{
+    padding: 20px;
+    background: #333;
+} 
+
+
+.rodo {
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.active
+{
+    padding: 20px;
+    background: #333;
+}
+
+
+.principale{
+    margin-top: 10%;
+    
+}
+.principale h1{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 52px;
+    margin-bottom: 60px;
+    text-align:center;
+}
+
+.equipe{
+    display:flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.equipe .equipe1{
+    background: #fff;
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    color: #8e8b8b;
+    position: relative;
+}
+
+
+.equipe .equipe1 h3{
+    color: #81c644;
+    font-size: 26px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+
+}
+
+
+.equipe .equipe1 p.role{
+    color: #ccc;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 12px 0;
+}
+
+.equipe .equipe1 .equipe_img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translate(-50%);
+    background: #fff;
+    border-radius: 10PX;
+
+}
+
+.equipe .equipe1 .equipe_img img{
+width: 100px;
+height: 100px;
+padding: 10px;
+}
+
+.pied-page
+{
+    background: rgb(82, 81, 81);
+    color:white;
+    text-align:center;
+    padding: 50px;  
+    margin-top: 10%;
+} 
+
+
+/* Media Queries for Responsivity */
+@media (max-width: 1200px) {
+    .principale h1 {
+        font-size: 48px;
+    }
+
+    .header nav ul {
+        float: none;
+        text-align: center;
+    }
+
+    .header nav ul li {
+        float: none;
+        display: inline-block;
+    }
+}
+
+@media (max-width: 768px) {
+    .principale h1 {
+        font-size: 36px;
+    }
+
+    .equipe .equipe1 {
+        width: 80%;
+        margin: 20px auto;
+    }
+    .header nav h1 {
+        float: none;
+        text-align: center;
+      }
+    .header nav ul {
+        float: none;
+      }
+    .header nav ul li {
+        float: none;
+      }
+    .header nav ul li a {
+        padding: 10px;
+        text-align: center;
+      }
+    body {
+        background: lightgray; /* Fallback for smaller screens */
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .principale h1 {
+        font-size: 24px;
+    }
+
+    .equipe .equipe1 {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    .header nav h1 {
+        float: none;
+        text-align: center;
+      }
+    .header nav ul {
+        float: none;
+      }
+    .header nav ul li {
+        float: none;
+      }
+    .header nav ul li a {
+        padding: 10px;
+        text-align: center;
+      }
+    body {
+        background: lightgray; /* Fallback for smaller screens */
+        height: auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
